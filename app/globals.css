@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+body {
+  /* The main dark background color */
+  background-color: #0a0a0a;
+  
+  /* Creates the subtle grid pattern */
+  /* background-image: linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+                    linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px); */
+  background-size: 30px 30px; /* Adjust size of grid squares */
+  color: #ffffff;
+}

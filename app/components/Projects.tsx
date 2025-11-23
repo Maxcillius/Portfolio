@@ -1,3 +1,5 @@
+'use client';
+
 import Link from 'next/link';
 import Image from 'next/image';
 import ExpTrk from '../../public/ExpTrk.png'
@@ -10,7 +12,7 @@ export default function Projects() {
       date: "Apr 2025",
       description: "Generate unique icons with the power of AI with secure authentication and storage.",
       points: [
-        "Developed Link scalable, cloud-hosted icon generation service using Next.js and PostgreSQL.",
+        "Developed a scalable, cloud-hosted icon generation service using Next.js and PostgreSQL.",
         "Enhanced asset delivery performance by integrating AWS CloudFront, reducing load times by 40%.",
         "Implemented secure user authentication, Razorpay payments, and S3-backed media management.",
       ],
@@ -23,7 +25,7 @@ export default function Projects() {
       date: "Nov 2024",
       description: "Financial expense tracking web base platform with chart analysis.",
       points: [
-        "Architected Link full-stack expense management platform with robust data visualization tools.",
+        "Architected a full-stack expense management platform with robust data visualization tools.",
         "Developed secure and modular REST APIs for transaction entry, categorization, and budget tracking.",
         "Integrated D3.js to create interactive data visualizations for spending patterns.",
       ],

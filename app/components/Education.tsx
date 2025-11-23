@@ -1,4 +1,5 @@
-// --- Education Component ---
+'use client';
+
 export default function Education() {
   const educationData = [
     {

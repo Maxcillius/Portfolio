@@ -1,3 +1,5 @@
+'use client';
+
 import Link from "next/link";
 
 const GithubIcon = () => (
@@ -46,7 +48,7 @@ export default function Footer() {
               &copy; {new Date().getFullYear()} Gourav Deep Shahni. All rights reserved.
             </p>
             <p className="text-xs text-gray-500 mt-1">
-              This is Link personal portfolio.
+              This is a personal portfolio.
             </p>
           </div>
           <div className="flex justify-center gap-4">

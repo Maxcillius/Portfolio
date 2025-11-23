@@ -129,9 +129,6 @@ const technologies = [
           </button>
         ))}
       </div>
-      <p className="text-center text-lg text-gray-300 mb-12 max-w-2xl mx-auto">
-        Technologies that I use but not limit to
-      </p>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-13 w-fit gap-3">
         {filteredTech.map((tech) => (
           <div 

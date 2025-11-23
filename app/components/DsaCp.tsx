@@ -1,3 +1,5 @@
+'use client';
+
 import Link from 'next/link';
 import leetcode from '../../public/leetcode.webp'
 import codeforces from '../../public/Codeforces.webp'

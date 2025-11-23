@@ -325,7 +325,7 @@ export default function HomePage() {
             variants={fadeInUp}
             className="max-w-2xl text-sm text-gray-300/95 md:text-base"
           >
-            Hi, I am Gourav. I like taking on real-world problems and creating simple, useful solutions.
+            Hi, I{"'"}m Gourav. I like taking on real-world problems and creating simple, useful solutions.
           </motion.p>
 
           <motion.p
